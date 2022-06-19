@@ -31,7 +31,7 @@ body {
     width: 50%;
   }
   body footer {
-    background-color: grey;
+    background-color: rgb(176, 170, 170);
     display: inline-flex;
     height: 50px;
     text-align: center;
