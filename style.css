@@ -1,19 +1,20 @@
 body {
-    background-color: white;
+    background-color: whitesmoke;
   }
   body .container {
     margin: 10px auto;
   }
-  body header img .flex-item {
+  body header img {
     width: 100%;
     max-width: 200px;
     height: auto;
     border: 200px;
 
 }
-   .card-group img {
-    height: 20em;
-    
+  body img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
   }
   body .button {
     margin-right: 5px;
@@ -185,8 +186,10 @@ body {
     height: 300px;
     margin: 15px;
     justify-content: center;}
-   
+
+    @media screen and (max-width:1000px) 
     
-
-
-
+    {
+        body{color: green !important;}
+        
+    }
